@@ -11,7 +11,7 @@ sidebar.run()
 proposal_list = ('AirDAO Tokenomics Proposal', 'Ecosystem Fund: Community Multisig', 'Transition to Community Governance: AirDAO Council Proposal', 'Community Vote', 'Operations Vote')
 
 # drop down menu with a list of all proposals
-selected_proposal = st.selectbox('Select proposal', proposal_list, help="Hit enter to send the address...")
+selected_proposal = st.selectbox('Select proposal', proposal_list, help="Select proposal")
 
 # Proposal text
 st.header(selected_proposal)
